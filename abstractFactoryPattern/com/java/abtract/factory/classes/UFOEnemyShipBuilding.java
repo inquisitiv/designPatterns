@@ -1,4 +1,9 @@
 package com.java.abtract.factory.classes;
+//With Abstract Factory in particular, the decision about which 
+//factory to use is made at runtime. Typically, this is done in 
+//some code dedicated to providing the right factory by conditional
+//branching based on some key piece of information. This means as 
+//more factories are created, this central decision point must be modified. That's annoying.
 
 public class UFOEnemyShipBuilding extends EnemyShipBuilding {
 
